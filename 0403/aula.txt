@@ -1,0 +1,114 @@
+Qualidade:
+	Normas e Guias de Qualidade:
+		Norma -> imposição
+		
+		Guia -> recomendações, diretiva
+		
+	ISO -> International Organization for Standardization
+		Tem normas:
+			Meio ambiente
+			Fabricação de Produto
+			Desenvolvimento de Software
+	SEI -> Software Engineering Institute
+	No Brasil: Softex -> Impulsionar a indústria de software
+	
+	ISO 9126 - reeditada na ISO 25010
+		Adaptação brasileira NBR 12119 -> geralmente é tradução de ISO
+		
+		Atividade aula:
+		
+			Pong Gameplay:
+				Pontos positivos:
+					Som mais agradável ao acertar bolinha
+					Interface simples
+				Pontos negativos:
+					Som irritante na derrota
+					Tempo muito longo para reset
+			
+			Minecraft:
+				Pontos positivos:
+					Criativo
+					Liberdade para fazer o que quiser
+					Incentivo à imaginação
+					Diversidade de itens
+				Pontos negativos:
+					Não tem os melhores gráficos
+			
+			Rise of the Tomb Raider:
+				Pontos positivos:
+					Gráficos agradáveis
+					Legenda
+					Vídeo introdutório
+					História
+					Climatização
+				Pontos negativos:
+					A física da neve não é muito boa
+	
+		A ISO já nos diz as características que devemos comparar para medir vantagens e desvantagens:
+			Funcionalidade:
+				Atendimento dos requisitos
+			Compatibilidade:
+				Coexistência de aplicações -> aplicações conseguem se comunicar 
+				Funcionamento integrado de componentes -> é possível utilizar outros componentes e integrar para funcionar
+					se o software de terceiro deixar de funcionar a sua para também se não estiver preparado
+			Usabilidade:
+				Facilidade de compreesão -> sabe o que fazer quando abre
+				Facilidade de aprendizado -> mesmo não sabendo tem um tutorial para usar que permite aprender
+				Facilidade de operação -> se é fácil de operar, fácil de usar
+			Segurança:
+				Confidencialidade -> restrição de acesso a dados, proteção de dados
+				Auditoria -> rastreamento de problemas, quem alterou o que, quem fez o que, quando
+				Autenticidade -> saber quem faz o que, quando
+				Integridade da informação -> A informação faz sentido, se juntar elas bate
+			Portabilidade:
+				Facilidade de instalação 
+				Facilidade de substituição
+				Facilidade de adaptação a nova plataformas -> facilidade para funcionar em outras plataformas
+			Desempenho:
+				Tempo consumido -> responder rápido
+				Recursos consumidos -> não consumir muito
+				Capacidade de processamento -> não precisar de processamento excessivo
+			Manutenabilidade:
+				Facilidade de manutenção -> ter o software documentado
+				
+				Facilidade de mudança:
+				... de análise
+				... de teste
+				Modularidade
+				... de mudança
+				Reuso
+			Confiabilidade: 
+				Proteção contra falhas -> evitar que ocorram falhas
+				Recuperação de falhas -> logs, conseguir ver os que deram problema para corrigir depois 
+				Estabilidade -> manter um comportamento previsível, quando tem bug tem horas que funciona e que não
+		
+	ISO 12207
+		O software é fruto do processo, a forma de trabalhar precisa ser ajustada para dar certo
+		Precisamos de métodos
+		
+		Ex: muito mais fácil desenhar o pika na malha
+		
+		Primeiro pensamos na forma de trabalhar, depois nas competências individuais que precisa
+		
+		Competências individuais - Processo e controles de trabalho - Ferramentas e Materiais
+									(quem sabe vai ensinando)			(+ guias que vão indicar como alcançar)
+									
+		Tipos de processo:
+			* Principal - Desenvolvedor
+			* Organizacional - Gestor
+			* Suporte - Apoio técnico, suporte
+		
+		Isso nos lembra que existem muitos processos que não são o principal, mas comprometem se não estiverem feitas bem
+	
+		PDCA -> ciclo de melhoria contínua
+			Plan, Do, Check, Act
+			
+			Melhoria contínua é um paradigma a ser seguido
+		
+	ISO 15504 - SPICE
+		equivalente a CMI
+		
+		Ajuda a definir estágios de implantação de qualidade
+		Roteiro para implantar a qualidade na empresa
+		
+		
