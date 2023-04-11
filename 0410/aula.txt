@@ -1,0 +1,225 @@
+Guias da qualidade
+	CMMi
+		SEI -> Software Engineering Institute
+		
+		Desafio:
+			Implantar várias práticas na empresa:
+			
+			É necessário seguir uma ordem
+			Não dá para mudar tudo de uma só vez
+			
+			É necessário seguir de forma gradual
+		
+		CMMi - Ajuda nisso
+			Define níveis de qualidade
+			
+			Duas abordagens:
+				Estagiada
+					5 Otimizado
+					4 Quantitativamente Gerenciado
+					3 Definido
+					2 Gerenciado
+					1 Inicial
+					
+					Se você quer um selo de qualidade
+					Uma série de práticas novas para trabalhar gerenciamente, produção de software, estatística e otimização
+					Do nível 2 ao 5 tem os certificados de qualidade
+					O Nível 1 é o início, entender como funciona a empresa
+						nesse nível ainda não tem padrão, resultados imprevisíveis, atividades reativas, não controladas
+						Você pode ser chamado para resolver um problema nada a ver com você
+						Por isso não há selo de qualidade para esse nível
+					
+					Começa pelo gerenciamento (ainda sem se preocupar com desenvolvimento)
+						Entender como está o gerenciamento atual
+						Visualizar as opções
+						Sem impor nada
+						Como é feito o planejamento
+						Controle de resultados
+						Qualidade do desenvolvimento
+						
+						Padronizar apenas o gerenciamento
+						Forma de acompanhar e gerenciar comum
+						
+					Definido
+						Usar o que aprendemos, o que usam, o que é mais usado no mundo
+						Onde definimos as práticas, ferramentas
+						Nova forma de trabalho, novo padrão
+						Usar mesma linguagem etc.
+					
+					Quantitativamente Gerenciado
+						Usar estatística
+						Saber quem programa mais rápido
+						Quem gera mais bug
+					
+					Otimizado
+						Entender os problemas
+						Usar técnicas, métodos para melhorar
+						Ex: sessão de retrospectiva do Scrum
+						
+						Nível 2:
+							* Garantia de qualidade de processo (PQA)
+								alguma rotina para saber se estão seguindo
+							* Gerenciamento do acordo de serviço com fornecedores (SAM)
+								forma de acompanhar contratos, definir contratos padrão
+							* Estimativa (EST)
+								Saber o custo, tempo que vai levar
+								Forma de estimar projeto
+							* Planejamento (PLAN)
+								Como documentar o plano
+								O que vai entregar
+								Quem vai fazer o que
+								Quando
+								Scrum com Azure é um jeito, Trello é outro
+								Cascamental é outra ...
+							* Monitorazação e controle (MC)
+								Controle de status
+								Status report
+								Acompanhar andamento e produtividade das pessoas
+							* Gerenciamento de configuração (CM)
+								Ex: Git
+								Documentação e planejamento ficam no Git
+								Por isso ele já entra aí
+							* Governança (GOV)
+								gestão de contas
+								gerenciamento
+						
+						Nível 3:
+							* Gerenciamento e desenvolvimento de requisitos (RDM)
+								Verificar requisito
+								Ver se cumpriu
+							* Verificação e validação (VV)
+								Teste
+							* Revisão por pares (PR)
+								Equipe, dupla para revisar, como
+							* Solução técnica (TS)
+								Qual ferramenta, como, qual método
+							* Integração de produto (PI)
+								Padrão de biblioteca
+								O que vai usar
+							* Gestão de risco e oportunidade (RSK)
+							* Treinamento organizacional (OT)
+								Como treinar
+								Como saber se aprendeu
+								Certificação ou não?
+							* Análise e tomada de decisão (DAR)
+								O que fazer se não der certo, se acontecer X
+								Mapear os principais problemas enfrentamos e criar uma árvore de decisão pronta
+								Para evitar para o projeto para discutir tudo
+								Decisões pré aplicadas
+							* Implementação de infraestrutura (II)
+							* Processo de desenvolvimento (PAD)
+								padrão de programação
+								Design patterns
+							* Gestão de processo de software (PCM)
+								Agile
+								Cascata
+								...
+						
+						Nível 4:
+							* Gerencimaneto e medição do desempenho (MPM)
+								estatística, relatório
+						
+						Nível 5:
+							* Análise de Causas (CAR)
+
+						As grandes dificuldades do CMMi são os níveis 2 e 3
+
+					Sequência correta do desafio:
+						A. Documentação de requisitos usando backlog itens do Scrum:
+							Nível 2, pois entra na definição de requisitos, planejamento
+						B. Planejamento e controle de tarefas
+							Nível 2
+						C. Modelagem de sistemas UML e Astah
+							Nível 3
+						D. Modelagem de bancos
+							Nível 3
+						E. Testes unitários com JUNIT
+							Nível 3
+						F. Controle de versão com Git
+							Nível 2
+						G. Controle estatístico
+							Nível 4
+						H. Padronização Java
+							Nível 3
+						
+					Conforme é mostrado que você tem o nível X, o auditor consegue te dar um certificado para o seu nível de qualidade
+					Para ele conceder o nível 4, você precisa do 1, 2, 3 e 4, se o 4 não estiver você não ganha do 4 nem do 3
+					Auditor vem para cobrar
+					Consultor vem para ajudar, guiar
+					
+					Muito caro
+					120 mil
+					500 mil
+					Consultoria, equipe para para implementar etc.
+					
+					Certificação Nacional:
+						2 - 59
+						3 - 49 (esses dois primeiros que trazem a transformação empresarial, níveis mais técnicos)
+						4 - 1 (nível transicional)
+						5 - 4
+						
+				Continuada
+					
+					Usado se você quiser melhorar as práticas da empresa 
+		
+					Quero melhorar
+					Não consigo estimar bem ...
+					
+					Nível 0 -> incompleto, o que precisa melhorar
+					Aí vai do início até o fim
+					
+					Nível 0 -> Incompleto
+					Nível 1 -> Executado
+					Nível 2 -> Gerenciado
+					Nível 3 -> Definido
+					Nível 4 -> Quantitativamente Gerenciado
+					Nível 5 -> Otimizado
+		
+					Pega só um assunto e melhora
+				
+		Slides com as metodologias, ferramentas que podem ser usadas em determinados tópicos
+		
+	MPS.BR (Modelo de processo de software brasileiro)
+		Nem sempre precisamos investir em algo internacional como o CMMi
+		Não se aplica para empresas brasileiras sem condições ou pretenções para algo desse nível
+		
+		Empresas brasileiras ou só da América Latina, costuma ser melhor o MPS.BR
+		
+		No território nacional tem um total de 919 empresas em análise ou realizada com MPS.BR
+		Total de 830 empresas com certificações
+		Quase 1000 interessadas
+		
+		Trabalha com 7 níveis:
+			G - Parcialmente Gerenciado
+			F - Gerenciado
+			E - Parcialmente Definido
+			D - Largamento Definido
+			C - Definido
+			B - Gerenciado Quantitativamente
+			A - Em Otimização
+			
+		Diferente do CMMi com 4 níveis, o MPS tem 7
+		Eles pedem as mesmas coisas, porém os níveis 2 e 3 foram quebrados em outros
+			2 - Níveis G e F
+			3 - Níveis C, D e E
+			4 - Nível B
+			5 - Nível A
+		
+		Mesmo sendo só o nível G, é uma coisa pelo menos, você está engajado pelo menos
+		Com o tempo você vai subindo, evoluindo
+		No CMMi fica parado por muito tempo e gasta muito
+		No MPS.BR vai gastando aos poucos e já tem resultado
+		
+		Slide com os processos por nível
+		
+		Uma forma de alcançar o CMMi é avançar no MPS.BR até o final e depois ir para o CMMi no nível 5 direto
+		
+		Também é caro, mas menos comparado com o CMMi, algo mais viável para as empresas nacionais
+	
+	Vantagem de ter algo padronizado
+		Se você fez algo em um lugar, alguém do outro lugar do mundo pode continuar
+		Se tudo estiver documentado, estruturado igual, mesma linguagem
+		Tem como alguém continuar enquanto você estiver dormindo
+		Não precisa de hora extra, só funcionários de outros fusos continuar
+	
+	Obs: Cada fábrica, unidade, precisa da sua certificação
