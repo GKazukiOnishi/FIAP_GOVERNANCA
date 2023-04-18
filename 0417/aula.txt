@@ -1,0 +1,82 @@
+CMMi nível 2 de maturidade - PP, MS.br nível GPR
+	Escolha de um Processo de Software
+		Como iremos trabalhar o projeto
+	
+	Ciclos de vida de projeto
+		Cascata
+		Incremental
+		Prototipação Evolucionária
+		Espiral
+		
+		Apenas define fases
+		Mas quem vai fazer, o que precisamos, como
+		
+	Por isso precisamos do Processo de Software
+		Que nos diz COMO realizar o ciclo, definindo:
+			Responsabilidades
+			Ferramentas
+			Atividades
+			Controles
+		
+		Tipos:
+			* Clássicos ou Tradicionais
+				Cascata ou Incremental
+			* Ágeis
+				Prototipação Evolucionária ou Espiral
+		
+		Clássicos:
+			Processo RUP (padrão internacional, durou 20 anos, 2000 a 2010)
+		Ágeis:
+			Prototipação Evolucionária
+				Processos RAD / DSDM
+			Espiral
+				Processos XP / SCRUM
+	
+	RUP (Rational Unified Process)
+		Rational -> nome de empresa que criou o modelo de gestão, ficou tão famoso que a IBM comprou eles
+		IBM criou plataforma em cima desse método
+		Plataforma Rational Rolls -> pago
+		
+		Do modelo clássico temos fases bem definidas:
+			Concepção -> ideia
+			Elaboração -> modelando
+			Contrução -> codando e testando
+			Entrega -> entregando
+		
+		Permite módulos, cada um com suas fases
+	
+		Gráfico de Baleias no site https://sceweb.uhcl.edu/helm/RationalUnifiedProcess/
+		Mostra esforço por disciplina ao longo das fases
+		
+		Esforço
+		Prazo
+		
+		Atividade
+			dura 10 dias (Prazo)
+			usa 2 programadores (2 programadores trabalhando por 10 dias, 20 dias de esforço)
+			custo é proporcional ao esforço
+			
+		Orçamento { R$ 100.000
+					100 dias
+		
+		A pergunta é, quanto do orçamento gastaremos em cada fase?
+		Gráfico de recurso por tempo do site, ao clicar nas fases no gráfico inicial
+		
+		Concepção - R$ 5.000 (5%) - 10 dias (10%)
+		Elaboração - R$ 20.000 (20%) - 30 dias (30%)
+		Construção - R$ 65.000 (65%) - 50 dias (50%)
+		Entrega - R$ 10.000 (10%) - 10 dias (10%)
+		
+		Se uma empresa for fazer as duas primeiras fases, orçamento de 25.000 etc.
+	
+		Esquema de Business Modeling no site, em que cada ponto tem seu detalhamento
+		Glossário por documento etc.
+		Funções de cada papel
+		
+	Nos modelos clássicos podemos perceber
+		Divisão muito grande dos papéis, muitos papéis, muitas pessoas
+		Muita muita documentação, burocracia, sem assinar não vai para frente
+		
+	
+		
+		
