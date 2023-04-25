@@ -1,0 +1,118 @@
+SCRUM
+	Product Backlog -> Backlog -> Sprints + Reviews -> Retrospectiva da Sprint
+	Sem duração pré definida
+					máximo 8h de planejamento
+									2 a 4 semanas, dailys de 15 min, review de até 4 horas ao final da Spring
+
+	Time SCRUM (diferente do RAD não tem tantos papéis)
+		Product Owner
+		SCRUM Master
+		SQUAD - Time de Desenvolvimento
+	
+	Obs: Existem variações de SCRUM (less etc.)
+	Podem existir SCRUM de SCRUM ... para ter vários níveis de planejamento
+	
+TOGAF -> Arquitetura de Soluções
+	Solução
+	Alinhamento entre as soluções
+	
+	Framework de Arquitetura do Open Group (HP, IBM ...)
+	
+	Modelo para desenho de arquitetura
+	Desenhos técnicos
+	
+	Partir da expectiva do alto da pirâmetro para atender às demais
+	
+	ADM - Arquitecture Develop Model
+		trabalha com fases
+		
+		Preliminar -> onde construímos a visão geral do negócio, o que faz, parceiros, quem, como trabalha
+		A Visão da Arquitetura -> Selecionar problemas mais preocupantes
+		B Arquitetura de Negócio
+		C Arquitetura de Sistemas -> Sistema e Banco de dados
+		D Arquiteutra de Tecnologia
+		
+		A ao D -> Arquimade
+		
+		E Oportunidades e Soluções
+		F Plano de Migração
+		G Implementação e Governança
+		H Gerenciamento de Mudanças
+		
+		Tudo com a Gestão de Requisitos no centro verificando
+		
+	Domínios no slide
+	
+	Podemos ter a estratégia demandando algo que vira serviço e produto
+	Ou o serviço e produto incentivando mudanças na estratégia
+	
+	Fase Preliminar
+		Onde visitamos a empresa
+		Tem mapas e diagramas
+		
+		Empresas costumam ter uma Declaração estratégica:
+			Missão, por que a empresa existe. Ex: Nike - To bring inspiration and innovation to every athlete* in the world.
+			Visão, até onde deseja chegar
+			Valores, como colaboradores devem se comportar e tratar relacionamentos
+			Objetivo, o que deseja alcançar, meta, investimento, tangibilizar
+		
+		Exercício:
+			Missão - Desenvolver soluções de software e bancos de dados para clientes e dar suporte técnico pós-implantação
+			Visão - Atendimento em âmbito nacional, plataformas Salesforce e SAP, desenvolvimento de customizações nas linguagens das duas plataformas, JAVA, PHP e Android
+			Objectivos - Estar entre as melhores software houses do Brasil
+				Metas - Entre as 30 melhores em 13 anos
+	
+		Solução:
+			-Missão: prover soluções que promovam a evolução e sustentação dos negócios de seus clientes.
+
+			-Visão: atuar no mercado nacional de soluções de software e bancos de dados, aplicando a tecnologia a serviço dos negócios.
+
+			-Valores: excelência técnica na condução de projetos com agilidade, planejamento e controle precisos.
+
+			-Objetivos: destacar-se entre as 30 melhores empresas de tecnologia.
+
+			-Metas: alcançar o objetivo de destaque em um prazo máximo de 13 anos.
+		
+	Visão de Arquitetura
+		Desenhos técnicos da solução
+		
+		1. Identificar Stakeholders
+			tomadores de decisão
+		2. Identificar departamentos, o que fazem
+			como cada um ajuda
+			
+			Quadro no slide
+			Áreas
+			Macro processos da Área
+			Sistemas que atendem aos processos de negócio
+		
+			Quanto mais um sistema atender ao processo, mais importante ele é
+			
+			quadro útil para mostrar a necessidades dos sistemas da empresa
+			
+			tem áreas que nem usam sistemas, isso indica uma oportunidade para desenvolver algo novo ou usar
+			tem áreas que não estão resolvidas completamente pelo sistema
+		
+			slide com exemplo
+			
+			Obs: Identificar os macro processos por aquilo que é feito
+			
+			ARCHIMATE - Archi
+			
+				Tem várias visões de projeto
+				Apresenta vários símbolos separados por cores e barras, cada um para cada fase
+				
+				Roxo - Visão de Arquitetura
+				Amarelo - Arquitetura de negócios 
+				Azul - Arquitura de sistemas 
+				Verde - Arquitetura de tecnologia 
+				são os principais
+				+ conectores
+				
+				Conector mágico ajuda, mostra sugestões, associated by é o padrão
+				
+				Visão de arquitetura - Roxo
+					Stakeholder - Quem pede
+					Driver - Diretriz, o que ele pede para fazer
+					Value - Valor a ser buscado
+					Assessment - Como o stakeholder vai ver isso tudo
