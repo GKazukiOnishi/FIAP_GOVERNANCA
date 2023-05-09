@@ -1,0 +1,19 @@
+Será que vale a pena um projeto de R$ 500.000?
+	Atualmente perdemos 250.000
+	sem o projeto ganhamos 150.000
+	
+	Então no 1 ano teremos -500.000 e -250.000
+	No 2 temos 250.000 + 150.000 + x
+	Em 2 anos pagamos o projeto
+	
+	
+Visão de arquitetura - Roxo
+	Stakeholder - Quem pede
+	Driver - Diretriz, o que ele pede para fazer
+	Value - Valor a ser buscado
+	Assessment - Como o stakeholder vai ver isso tudo
+	Goal - Objeto. O que queremos
+	Outcome - Metas. Pode ter valor, prazo.
+	Principle - Coisas que não podemos esquecer. Ex: Gerar protocolo nos chamados etc. Lembrete
+	
+Roadmap - Mapa de entregas do projeto
