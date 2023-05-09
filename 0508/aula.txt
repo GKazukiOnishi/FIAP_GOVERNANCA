@@ -15,5 +15,10 @@ Visão de arquitetura - Roxo
 	Goal - Objeto. O que queremos
 	Outcome - Metas. Pode ter valor, prazo.
 	Principle - Coisas que não podemos esquecer. Ex: Gerar protocolo nos chamados etc. Lembrete
+	Requirement - Requisito
+	Constraint - Regra que se aplicará em cada requisito
 	
 Roadmap - Mapa de entregas do projeto
+
+Todos os requisitos estão associados com os desejos do Stakeholder - Governança na prática
+
