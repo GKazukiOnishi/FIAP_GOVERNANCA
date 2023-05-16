@@ -1,0 +1,41 @@
+TOGAF - 
+	Visão de Arquitetura
+		Temos como montar a arquitetura atual (As Is) e outro sobre como será (To Be)
+	
+	Arquitetura de negócios 
+		Mapa de processo com o fluxo de uso dos usuários de quando o sistema existir
+	
+		Bizagi (ano passado)
+		Visão por cima ainda
+		
+		Visão de processo do archimate é mais completo
+		
+		Blocos de processo para o negócio do Dilan
+			Registrar
+			Atender
+			Gerenciar
+	
+		Diagramas amarelos
+			Business Process - bloco de processo
+			Business Actor - Atores, quem faz o que
+			Business Role - Papel que o ator desempenha, permissões e ações que alguém faz é separado por perfil, não cargo
+				Conector de Serves -> falar o que um ator, desempenhando um determinado papel, faz
+			Location - Onde é feito
+				Para trabalhar de Homeoffice é necessário ter ferramentas que possibilitem o funcionamento
+				Se for no modem da sua casa, precisa ser web
+				Se for client, precisa de mais conexão e garantia
+			Business Service - Para que serve, complemento
+			Business Event - Evento que inicia o processo / Finaliza etc.
+			Business Function - Função
+				Composition - Obrigatória
+				Agregation - Opcional
+				(isso aparece quando o bloco está fora ou quando abrimos a Analysis do bloco)
+				
+				Conexão de Trigger -> ativa o processo
+				Conexão de Flow Relation -> indica um fluxo
+			Business Collaboration
+			Contract - Contrato
+			Product - Produto gerado
+			
+	
+		Ao longo do desenvolvimento a gente vai voltando e revisando o que já estava feito
