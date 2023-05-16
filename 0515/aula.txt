@@ -33,9 +33,11 @@ TOGAF -
 				
 				Conexão de Trigger -> ativa o processo
 				Conexão de Flow Relation -> indica um fluxo
-			Business Collaboration
+			Business Collaboration - Quando tem mais de uma função relacionada, uma colaboração de atividades
 			Contract - Contrato
 			Product - Produto gerado
+			
+			Conexão Realization - Falar como o processo realiza um determinado requisito
 			
 	
 		Ao longo do desenvolvimento a gente vai voltando e revisando o que já estava feito
