@@ -1,0 +1,40 @@
+Arquitura de sistemas
+	
+	Data Object - Definir dados que serão armazenados
+	Application Component - Aplicação - API Backend etc.
+		Conectivo - Access - Fala o que a APi acessa
+		Realization - Para dizer que a tela resolve um bloco de negócio
+	Application Interaction - Como vai interagir os componentes
+	Application Interface - Especificar como vai ser a interface (WEB etc.)
+	Application Service - Agrupa componentes que são do mesmo serviço, mesma camada (back-end, front, banco)
+
+Arquitetura de tecnologia 
+	
+	Device - Dispositivos de acesso (navegador etc.)
+	System Software - Aplicativos que vai precisar
+		Agregação - Você pode instalar e desisntalar, pode trocar
+	Node - Qualquer equipamento da rede (Switch etc.)
+	Path - Cabo, o que vai conectar (Cabo par trançado Cat 6e etc.)
+	Communication Network - Especificar LANs, tipos (LAN IP sobre Ethernet)
+	
+	Definimos infraestrutura
+	Dispositivos
+	Rede
+	Firewall
+	Aplicativos
+	Servidores
+	LANs
+	etc.
+	
+	DB Server
+		Pode ser um DB Server com HD dentro e tudo
+	DB Server com HD pequeno e DAS à parte (Direct Attached Storage)
+	Vários DB Servers conectados via LAN e uma SAN (Storage Area Network)
+	
+	Cada Equipamento e Servidor será especificado os componentes dele (RAM etc.)
+	
+	Máquinas com controladora de array RAID 1 (se um HD queimar o outro assume, arquitetura de espelho)
+	
+	Placa ethernet quad port com interface FCAL - fibra ótica em trunking com load balance (ficam balanceando carga)
+	
+	Isso tudo é importante, vale uma grana pesada, precisamos entender isso para contratar amazon etc.
