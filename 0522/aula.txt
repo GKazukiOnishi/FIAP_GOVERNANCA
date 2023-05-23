@@ -38,3 +38,9 @@ Arquitetura de tecnologia
 	Placa ethernet quad port com interface FCAL - fibra ótica em trunking com load balance (ficam balanceando carga)
 	
 	Isso tudo é importante, vale uma grana pesada, precisamos entender isso para contratar amazon etc.
+
+Isso tudo é arquitetura, tem valor, é trabalho com equipe e tudo
+Tudo partiu do Stakeholder
+
+Isso é base para dar preço
+Saber tamanho do projeto
