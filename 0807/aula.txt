@@ -1,0 +1,61 @@
+SCRUM
+	Plano de Release (tempo indefinido, porque não tem como saber ainda o tamanho do projeto todo)
+		Montagem do Product Backlog
+		O que precisa fazer
+		as tarefas
+		
+		Trello -> não é ferramenta de Scrum
+			Serve para controlar pedido de restaurante
+			Não tem tudo que precisa para o Scrum
+		
+		Vamos pensar nas tarefas de forma diferente
+		Vamos dividir em entregáveis, componentes (funcional e não funcional)
+		Funcionalidade, cor, tamanho, performance
+		
+		Colocar também previsão de entrega
+		Para possibilitar uma previsão de projeto
+		
+		Clientes precisam de previsão completa
+	Planejamento de Sprint (até 8h para fechar o plano, porque na etapa anterior você já entendeu o projeto)
+		Do Product Backlog, vamos pegar e extrair tarefas que serão feitas na Sprint
+		Para ter o Sprint Backlog
+		Tarefas que devem ser realizadas para produzir o item
+		Isso tudo para uma única Sprint, para os próximos 15 dias, próximo mês
+	Sprint
+		De duas a quatro semanas
+		A ideia é cada projeto ter pensado o tempo da Sprint
+		Dependendo o projeto é muito complicado e 2 semanas não é suficiente
+		Dependendo é simples, nisso 2 semanas já dá
+		
+		A ideia do Scrum é poder ir usando já
+		Não precisa de tudo pronto, mas algo usável
+	
+		Reunião diária
+			15 min
+			para a equipe saber o que foi feito, tirar dúvidas, falar dos problemas etc
+		
+	Sprint Review
+		Para repassar o que deu certo, errado etc.
+		Até 4h máx.
+	Retrospectiva
+		Ver o que foi feito, entregue
+		Produto ou funcionalidade concluída
+		3h máx
+	
+	
+	Figuras/Papéis principais
+		PO - Product Owner
+		SM - Scrum Master
+		Time
+		
+		Tem outras variações, mas esses sempre tem, são principais
+	
+	Vamos usar Azure DevOps - dev.azure.com
+		Para configurar menu avançado de criação de projetos, só abrir dentro de Boards, Process e escolher o Scrum, depois voltar
+		** Na criação do projeto, abrir a config advanced e CONFIGURAR o Scrum como Work Item Process
+		
+		Configurar no projeto só Boards e Repos
+		
+		Em permissões configurar o que cada um pode fazer
+	
+		
