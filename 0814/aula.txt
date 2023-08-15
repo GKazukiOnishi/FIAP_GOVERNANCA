@@ -1,0 +1,75 @@
+Acessar dev.azure.com/rmxxxxx no navegador para acessar
+
+olhar arquivo .archi
+
+Ir em Boards -> Backlog
+
+TOGAF (archi)
+	Goal (objetivo)
+	Requirement (requisitos)
+	Component (Componente de SW ou HW)
+
+No Scrum o correspondente seria (Backlog)
+	Epic (Épico / Assunto)
+	Feature (Funcionalidade)
+	Product Backlog Item (Item de produto a entregar)
+
+Setup para poder criar Epics
+	Clicar na engrenagem e habilitar Épico
+	
+Criar Épicos para cada Goal da arquitetura
+
+Em Column Options podemos editar as colunas para facilitar Visualização
+	Ex: Remover ícone de épico
+	Deixar título e esforço
+	Add coluna de Iteration Path -> indica a Sprint
+	
+Poder default os Épics vão para a Sprint 1
+Para limpar, clicamos no Épico e alteramos o campo Iteration para não ter o texto de sprint
+
+Dentro dos épicos de dos outros itens que forem criados, podemos adicionar descrição e critério de aceitação
+Eles são opcionais, usamos se soubermos ou for útil
+
+Na descrição colocamos a história de usuário
+História de usuário (Quem quer, o que quer, por que quer)
+Podemos aproveitar vários itens da arquitetura, princípios, valores, diretriz, goal
+
+Vamos trabalhar usando a ordem dos épicos como prioridade, então o campo em si de prioridade não usaremos
+Value Area -> Arquitectural / Business
+	Arquitectural -> veio da área técnica (ex: implementar com microserviços, desenvolvimentos para o Windows, recursos tecnológicos novos)
+	Business -> veio da área de negócio
+
+Critério de aceite
+	O que vai ser entregue, o que vão verificar para saber se tem
+	O funcionamento está na história, na descrição
+
+Ordem dos épicos é importante
+	Precisa ver o que precisa ter primeiro
+
+Obs: novos sistemas geram ruptura, colocar epic de feedback primeiro até vai, mas a maioria vai reclamar pelo choque, melhor dps de estabilizar
+
+Ao clicar em + na tabela, em uma linha de épic, podemos criar uma Feature
+	Vamos criando uma para cada Requirement associado ao Goal do Épico
+	
+Entra então a importância da prioridade
+	Pensar qual feature é importante ter primeiro
+	Por exemplo, os requirement que estão associados a outros itens, criando uma maior importância do requirement
+	Mesmo aqueles requirement que estão associados a mais de um Goal, eles continuam existindo nos dois épics, não é como se só precisasse fazer uma vez
+		Para cada Goal o Requirement pode ter detalhamentos diferentes, usuários diferentes
+	No caso, esses requirements em outros epics acabam virando "refatorações", o que é comum no Scrum
+
+Cada um pode fazer do jeito que preferir, porém ao usar o TOGAF temos um match que trás benefícios e prática
+
+Obs: se não tivesse zerado a Sprint antes, teria que alterar para todos depois
+
+Na descrição da feature mesmo ideia
+histórica falando quem vai usar
+Atendente? analista?
+O que?
+Quais regras?
+Até que ponto? (Se depender de outro requisito, pode ser feito depois algumas partes)
+
+Entregar o que? sistema x, com isso e y.
+
+
+	
