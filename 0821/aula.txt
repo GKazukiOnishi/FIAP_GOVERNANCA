@@ -1,0 +1,18 @@
+Product Backlog Item
+	Entregáveis, parte azul, os componentes
+	Colocar o que vamos entregar (não os que estão feitos ou vão vir de outro lugar)
+	
+	Nem toda o CRUD da API precisa ser implementado de uma vez, podemos fazer por partes conforme a necessidade surge nas funcionalidades
+	
+	Precisa fazer tudo de uma ver?
+	Fazer o planejamento todo?
+	
+		Depende, em projetos pequenos é bom, porque vai andar mais rápido e o planejamento precisa estar preparado
+		Mas na prática, para projetos grandes, tem muitas variáveis e nem sempre é fácil abrir logo de cara.
+		Então fazemos um pedaço e já vai produzindo
+		
+		Em projetos muito muito grandes, podem ter Scrum dos Scrums, vai tendo várias equipes de Scrum para cada parte do produto
+		
+	Descrição mesma ideia, quem, o que, por que.
+	Mas é importante detalhar para o programador que vai implementar, então add colunas, regras, etc.
+
