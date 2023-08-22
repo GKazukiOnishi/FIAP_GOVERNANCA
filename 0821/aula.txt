@@ -16,3 +16,9 @@ Product Backlog Item
 	Descrição mesma ideia, quem, o que, por que.
 	Mas é importante detalhar para o programador que vai implementar, então add colunas, regras, etc.
 
+Pontuação em horas é ruim, depende da experiência de cada e dá muita discussão, então separamos em fácil, médio ou difícil.
+
+0 1 2 -> task
+3 5 8 Product Item
+13 21 34 Feature
+55 89 144 Epic
