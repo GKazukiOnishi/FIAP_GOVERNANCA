@@ -22,3 +22,7 @@ Pontuação em horas é ruim, depende da experiência de cada e dá muita discus
 3 5 8 Product Item
 13 21 34 Feature
 55 89 144 Epic
+
+A pontuação fica no campo Effort
+Em caso de empate na pontuação, pegamos a maior e menor e eles precisam se explicar
+Todos votam e mostram ao mesmo tempo para não ter influência, sem poder mudar depois
