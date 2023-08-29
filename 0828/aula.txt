@@ -1,0 +1,32 @@
+Pontuação de tarefas
+
+	Poker Scrum
+	
+		Pontuação baixa - já fez, foi fácil e rápido
+		Pontuação média - já fez, foi mediano, demora, dá um trabalho
+		Pontuação máxima - nunca fez, parece grande, complicado
+		
+	144, 89, 55 -> epics
+	34, 21 e 13 -> features
+	8, 5 e 3 -> work item
+	2, 1 e 0 -> tarefas
+	
+	Preencher o valor obtido no effort
+	
+	Geralmente pontuamos os itens, não as features ou epics, porque é mais difícil de serem usados
+	Não são usados para planejamento geralmente
+	
+	Todos pontuam e mostram ao mesmo tempo, então a menor e maior pontuação discutem para explicar seus pontos de vista
+	A ideia é as pessoas poderem mostrar talvez algum ponto que outro não tenha enxergado, distorcendo a estimativa
+	Então após isso todos pontuam novamente, até ser unânime
+	Ou caso isso não ocorra, é preciso discutir a dificuldade da equipe para chegar a uma decisão
+
+Sobre paralelismo
+	mais de uma pessoa fazendo tarefas associadas. Ex: base, back e front
+	
+	Como resolver essa dependência? se alguém pegar só o front, vai depender da API
+	
+	Como fazer dependências?
+		Podemos adicionar links, associando como predecessor ou sucessor outros itens
+		
+		
