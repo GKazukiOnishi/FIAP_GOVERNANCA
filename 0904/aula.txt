@@ -1,0 +1,76 @@
+Começar o planejamento das Sprints
+
+	Em Filter options dos boards, permitir um side pane de "Planning"
+	
+	Arrastamos então os work items para as sprints correspondentes
+	
+	O total de pontos vai acumulando, e nisso com um total de dias por sprint, podemos calcular pontos por dia
+	
+	1 Sprint { 10 dias, 13 pontos -> 10/13 = 0,75 dias }
+	
+	Por pessoa, por projeto, vai mudando a definição de um ponto
+	
+	Se todas as sprints tiver a mesma duração e com as mesmas pessoas, a pontuação tende a se manter em todas as sprints
+	
+	A partir da primeira, temos uma definição do tamanho da sprint
+	
+	Se a pontuação não der o total exato, podemos decidir estourar ou deixar com folga, dependendo podemos repriorizar
+	
+	CLicando na sprint, na parte superior podemos definir as datas das sprints, utilizando 10 dias de sprint (2 semanas)
+	
+	Nisso temos uma adata de fim = 1/12/2023
+	Dias trabalhados = 6 sprints x 10 dias = 60 dias
+	Equipe de 5 pessoas recebendo R$100/hora e trabalham 6 horas por dia
+	Nisso temos um custo de R$3000 por dia com as 5 pessoas
+	Custo do projeto de 60 dias x R$3.000 = R$180.000
+	
+	Conseguimos então calcular o preço do projeto e data final dela
+	
+	Isso tudo se chama Release Plan, porque permite entregar datas ao cliente
+	Se quer a feature X e ela finaliza na Sprint 6, a data de entrega é a data final da sprint
+	
+Agora se iniciar o planejamento da Sprint
+	Nela quebramos um Work Item em tarefas
+	Até porque não podemos ficar falando que estamos no mesmo item a Sprint inteira
+	Sabemos que um item não é coisa de 1 dia
+	
+	Então temos várias tarefas para finalizar um Work Item, e então podemos ir dizendo em qual tarefa está na Sprint
+	
+	A equipe consegue se ajudar melhor, porque tem como saber em qual tarefa cada um está, que permite ter uma noção de em que ponto deveria estar para finalziar
+	
+	O planjemento de Sprint é por vez, só da Sprint corrente
+	
+	Vamos então criando Tasks por Work Item
+	Colocamos descrição de achar necessário
+	
+	Ajustar colunas para
+		Title
+		Remaining Work -> indica quantos pontos do effort total equivale a cada tarefa
+			podemos só dividir pelo total do work item
+		Effort
+	
+	No nível da Taks podemos inclusive configurar links para definir sucessores e antecessores
+	
+	O remaining work pode ser feito em horas, pontos etc.
+	
+	Em Task Board das sprints, temos um board com vários cards separados por work items e tasks
+	
+	O que fazer no primeiro dia da Sprint?
+	Pegamos uma tarefa, atribuímos a nós (ninguém mais pega)
+		Em Squad não tem gerente, é a Squad só
+	
+	Kanban sozinho não dá para ter uma boa ideia do ritmo da equipe, já que de 6 cards, 3 podem valer só 20% do effort
+	
+	Em analytics temos um Burndown Trend, que permite ter uma noção porque vai liquidando os pontos entregues das tasks
+	
+	Ele vai mostrar uma curva de referência de desempenho, indicando pontos ao longo dos dias da sprint
+	Mas nunca sai uma reta, porque os cartões tem pesos fixos, então vai descendo em escadas
+	Quando a curva real estiver acima da referência temos um atraso, abaixo é adiantado
+	
+	O ideal é não ter grandes distanciamentos da reta
+	
+	Adiantamento não necessariamente é bom, porque atrapalha todo o planejamento, gera um colapso no projeto
+	Não tem financiamento, fornecedor não acompanhar etc.
+	O ideal é cumprir com o prazo
+	
+	
