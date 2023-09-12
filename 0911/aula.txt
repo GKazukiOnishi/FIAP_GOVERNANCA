@@ -1,0 +1,77 @@
+Associando Scrum com Git
+
+	Ir na aba de Repos
+	Inicializar repo git
+	
+	Ir na tarefa, iniciar branch para a tarefa
+	Colocar mensagens, descrições, commits
+	Adicionar arquivos
+	Commitar
+	
+	Criar pull request
+	Definir se a tarefa está completa
+	
+	Nisso a tarefa já finaliza automaticamente
+	Conexão entre GIT e Scrum
+	
+Como estimar projetos?
+
+	FPA/APF (Function Point Analysis ou Análise de Pontos de Função)
+	Modelo mais conhecido de estimativas quantitativas de projetos de software
+	
+	No Scrum temos o Poker Scrum, mas como o cliente vai entender isso?
+	Não parece realista e profissional
+	Como mostrar para ele?
+	
+	Modelo de estimativa:
+		Predição -> Adivinhar o futuro usando seus conhecimentos e intuições
+		Projeção -> Com base em um histórico passado, ou seja, por analogia, será estimado o futuro
+			Pega algo parecido, copia, muda
+		Previsão -> Definir com base em probabilidades
+			Se baseia no histórico
+			Nas probabilidades futuras
+			E julgamento com base em conhecimentos adquiridos
+		
+			FPA
+			
+			Existem modelos que possibilitam:
+				a) Estimativa Direta: Atribui-se diretamente um valor estimado para fazer algo, vai lá e fala que vale x.
+					Poker Scrum
+				b) Estimativa paramétrica: Um algoritmo e cálculos vão definir o valor estimado com base em entradas.
+					FPA está aqui
+			
+					COCOMO -> modelo usando estimativa paramétrica
+						Gera a menor margem de erro
+						Mas é bem complexo
+					
+						Define grau de conhecimento da equipe, ferramentas, ambiente de projeto etc.
+						Modelo sofisticado
+						
+						Empresas que exigem maior sofisticação usam ele
+							Marinha, Aeronáutica etc.
+			
+	FPA / APF - Estimativa de Projeto por Pontos de Função
+		É simples, e tem precisão bem parecida com COCOMO
+		
+		É o mais comum e mais usado em projetos comerciais
+		
+		Mantido e desenvolvido por mais de 1400 empresas associadas, ele vai evoluindo com o tempo
+		
+		Ferramentas: Manual e automática
+		
+		1. Lembrando que a primeira coisa que fazemos é pensar na arquitetura para ter um entendimento
+		
+		2. Classificação Funcional
+			Componente funcional básico pode ser:
+				Interação função de transação = Processamento de dados
+					Pode ser de tipo:
+						(EE) Entrada externa -> input, update e delete de dados
+						(SE) Saída externa -> processamento que gera dado novo a partir de dado de origem, transformação e adição de novo conteúdo
+						(CE) Consulta externa -> query só, só consulta, não altera
+				Armazenamento função de dados = Arquivamento de dados
+					Pode ser em um:
+						(ALI) Arquivo lógico interno -> só usa dentro do sistema
+						(AIE) Arquivo de interface externa -> outros podem usar
+		
+			Obs: Tipo de Registro -> Quando a tupla de dado altera, quando as colunas mudam e a linha passa a armazenar algo diferente
+					
