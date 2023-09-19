@@ -1,0 +1,33 @@
+Dados referenciados -> quantidade de informações que a tela irá manipular ou interagir, listar separado por vírgula simples, são os campos
+							evitar ficar mudando o nome
+
+Planilha automática
+	A partir dos dados manuais, colocamos os campos preenchidos tirando as colunas de complexidade e pontos, na planilha automática
+	Colocamos lá no início
+	E então a planilha já vai calcular tudo, definindo os pontos da tarefa para colocar no Scrum, por exemplo, ao invés de tirar do PokerScrum
+	
+	O cálculo dela está nas tabelas dos slides, que define onde encontrar a complexidade a partir das informações preenchidas e da categoria
+	
+	Apenas para a categoria SE precisamos fazer manualmente, porque ele tem duas tabelas de classificação separada em entrada e saída
+	Então fazemos na planilha manual, classificamos, e pegamos a maior complexidade
+	
+	Há um jeito de colocar na automática, mas é na matriz à parte para SE
+	A diferença nela é que somos obrigados a separar por INPUT e OUTPUT lá, chegando em duas complexidades e usando a maior delas
+	
+	O cálculo dos pontos é feito por outra matriz, que utiliza a complexidade para chegar em pontuações
+	Isso substitui o poker usando ciência de dados
+	
+A vantagem do FPA é que temos uma justificativa para o preço e tamanho do projeto
+	Tem critério, motivo, ciência, dados por trás do cálculo da pontuação
+
+FPA ou Poker Scrum?
+	Projetos internos por exemplo, se a empresa concordar tudo bem, dá para usar o Poker Scrum
+	Se for algo para um cliente, para ser vendido, então muitas vezes o FPA é necessário
+	
+Dentro do FPA também tem uma planilha de ajuste, para tuning, para tratar detalhes
+	Por exemplo, se tiver muito cálculo, se usar telecomunicação, se precisar de uma tela mais bonita etc. 
+	Esse tuning é para indicar se você está abaixo ou acima da média calculada anteriormente pelo FPA
+	De acordo com a situação e contexto, tem como saber se precisa de mais cuidado ou não
+	
+	Se o ajuste levar a um valor maior, é possível justificar no contrato que o valor pode aumentar para uma margem de risco
+	Se o ajuste levar a um valor menor, tem como justificar ser mais simples
