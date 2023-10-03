@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="(new model)" id="id-80b00aa72af14762b03dfafbb121c495" version="5.0.0">
+  <folder name="Strategy" id="id-5fb61c8e0bc946a0a0a26a15ffebb50d" type="strategy"/>
+  <folder name="Business" id="id-99f3ff79d4f540b5bb0e38d25e21227f" type="business"/>
+  <folder name="Application" id="id-857665af7c9b4ca4a9ef6afebb3ff392" type="application">
+    <element xsi:type="archimate:ApplicationComponent" name="Banco de dados de Tarifa (Oracle)" id="id-b499872e6fe644e0b54c24b0947762c3"/>
+    <element xsi:type="archimate:ApplicationComponent" name="API de inclusão de Tarifa (JAVA)" id="id-d5badef51fab419e8c1210b2c2538e46"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Tela de inclusão de Tarifa (Web)" id="id-f12464d509af42199ac752e89ec3d784"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Application Component" id="id-7c250d5683fb476ab68a755f87ae51d5"/>
+    <element xsi:type="archimate:ApplicationComponent" name="API de consulta de Tarifa (JAVA)" id="id-03032d9b10e2429cba404824d45faf68"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Banco de dados de cache (NoSQL)" id="id-ff3efe39cd0a4705bc924cc7896f36b0"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Tela de consulta de Tarifa (Web)" id="id-b5cde3fe5a46456cb0a05dbc95576261"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Banco de dados de Vagas (Oracle)" id="id-d57afa3816a24489bbef3865144d09ee"/>
+    <element xsi:type="archimate:ApplicationComponent" name="API de consulta de Tarifa (JAVA) (copy)" id="id-3bb2c196b5b04b1eb3c451a25933c427"/>
+    <element xsi:type="archimate:ApplicationComponent" name="API de inclusão de Vaga (JAVA)" id="id-192e453c02624f14ac9c861bcb976aa9"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Tela de inclusão de Vaga (Web)" id="id-41f73c822d6048a7a6732763d75ba134"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Banco de dados de Manobrista(Oracle)" id="id-c59d8df4f624415a9f813fa48cc08b6d"/>
+    <element xsi:type="archimate:ApplicationComponent" name="API de inclusão de Manobrista (JAVA)" id="id-b333b6dfb2884d0e89f7ee9e1d221f80"/>
+    <element xsi:type="archimate:ApplicationComponent" name="API de consulta de Manobrista (JAVA)" id="id-d554b8865b6a44c599ee6598663929ab"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Tela de inclusão de Manobrista (Web)" id="id-87142c9fb6ab4bc5b03ca5424471bb37"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Tela de consulta de Manobrista (Web)" id="id-12695aaad9264053ac37b06ca04d8d05"/>
+  </folder>
+  <folder name="Technology &amp; Physical" id="id-97d56a53d5664a06ab2d456a0e6aff14" type="technology"/>
+  <folder name="Motivation" id="id-9cb9d6cd9bac48cc8ae5e7c12cba60fb" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-4d4576eacbd640929575d30f7a9259b0" type="implementation_migration"/>
+  <folder name="Other" id="id-8f504a1388d24e25b113e7c376f79e53" type="other"/>
+  <folder name="Relations" id="id-03fb84b6679246feb381e26eb43510ae" type="relations"/>
+  <folder name="Views" id="id-41a34a49035c429289aae5378eadce56" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-10baff7562ce413982b3c81d16b23408">
+      <child xsi:type="archimate:DiagramObject" id="id-3ce6758f109d4013a7e49c075acce553" archimateElement="id-b499872e6fe644e0b54c24b0947762c3">
+        <bounds x="180" y="300" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-c78925139a414a5ea7ddd725cfe1630c" archimateElement="id-d5badef51fab419e8c1210b2c2538e46">
+        <bounds x="180" y="144" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-8cc486b9fec44729ae8c8c3979eb9bcc" archimateElement="id-f12464d509af42199ac752e89ec3d784">
+        <bounds x="180" y="36" width="120" height="61"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-a5c5bf11c97c41e690c18b09de669537" archimateElement="id-03032d9b10e2429cba404824d45faf68">
+        <bounds x="348" y="144" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-f3ebc360343d48b680c9b51b14f0ed19" archimateElement="id-ff3efe39cd0a4705bc924cc7896f36b0">
+        <bounds x="341" y="228" width="133" height="61"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-53d67fc1e7ec434da70614db809aa533" archimateElement="id-b5cde3fe5a46456cb0a05dbc95576261">
+        <bounds x="348" y="36" width="120" height="61"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-a7b23aa4f83e43a183a42de8ce2e99ac" archimateElement="id-d57afa3816a24489bbef3865144d09ee">
+        <bounds x="528" y="300" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-27d6bed31dbb4632a8c2b09d06c0d306" archimateElement="id-192e453c02624f14ac9c861bcb976aa9">
+        <bounds x="528" y="144" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-01637ceb774848d49a78411d55d99c5e" archimateElement="id-41f73c822d6048a7a6732763d75ba134">
+        <bounds x="528" y="36" width="120" height="61"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-af3c03a02bd74c6a8b65e9be1ff83e53" archimateElement="id-c59d8df4f624415a9f813fa48cc08b6d">
+        <bounds x="-12" y="300" width="121" height="73"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-63684f49a30d46d68adf7a7708e068c9" archimateElement="id-b333b6dfb2884d0e89f7ee9e1d221f80">
+        <bounds x="-11" y="144" width="120" height="73"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-72be147273ba44579a7bd0aa14bb750b" archimateElement="id-d554b8865b6a44c599ee6598663929ab">
+        <bounds x="-156" y="144" width="120" height="73"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-4a4cd0cb799041b3a5272a843d4b799a" archimateElement="id-87142c9fb6ab4bc5b03ca5424471bb37">
+        <bounds x="-11" y="36" width="120" height="73"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-7c805b2b8ec64837bff0107359405e3e" archimateElement="id-12695aaad9264053ac37b06ca04d8d05">
+        <bounds x="-156" y="36" width="120" height="73"/>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
