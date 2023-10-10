@@ -1,0 +1,112 @@
+Testes manuais
+
+	Deixar pro cliente testar? Deixa na mão dele?
+	
+	Aí ele reclama e pede outra coisa?
+	
+	Existem diversas ferramentas de testes
+	
+	
+	* Testes de sistemas
+		Lá no alto do V
+		Último é homologação, mas são parecidos
+		Forma de construção, estrutura, é igual
+		Muda fonte de informação
+		
+	* Teste de usuário
+		Vai ler critério de aceite e descrição
+		Montar fichas de teste combinando situações
+		Dado um cenário, vai acontecer X
+		Ele vai ver se tá ok, e tudo bem
+		
+		Usuário não quer ter feito o que digitar, que digitar o que quiser, quer clicar onde quiser
+	
+	Estratégia de teste para Testes de sistema
+		Uso funcional
+		Teste de funcionalidade
+		Para verificar se cumpre a funcionalidade
+		
+		Casos de teste
+			Identificação
+			Descrição de objetivo (o que vai testar, qual cenário)
+			Objetivo avaliado (nome do programa, pode ser que ainda n tenha)
+			Preparação (o que precisa para poder testar, ex: para testar se já existe, antes do teste verificar o que existia)
+			Massa de dados de entrada (como vão vir os dados)
+			Massa de dados de saída esperada (como vão ficar os dados)
+			Procedimento de teste (etapas para conseguir testar)
+			Resultado esperado (o que deve acontecer, sem dó de especificar direito)
+			
+			Obs: Pode acontecer da massa de saída estar Ok, mas o resultado esperado não, porque algo pode não ter acontecido como deveria
+			
+			Obs: Tem coisas que podemos não saber ainda por não existir, o teste veio antes de ter, então o importante é o negócio sendo testado
+				Ex: Objetivo avaliado (programa), nome de tabelas, etc.
+		
+			Teste sem critério dirigido
+				Basicamente parte de uma UseCase
+				Pega os cenários principais, alternativos etc.
+				Vai ter um caso de teste para cada
+				
+				Verificar se massa de saída bateu, se resultado esperado bateu
+				Cumpriu cenário de useCase, então blz
+				
+				** Aqui não temos controle de dados
+				É legal para o usuário
+				Mas não para QA de TI
+				QA de TI precisa ser bem preciso
+				Vai ter já escolhido o que vai ser feito, digitado, verificado, qual texto etc.
+				
+				Usuário não gosta disso, quer digitar o que quiser
+				TI já é dado controlado
+				
+			Com critério dirigido
+				** Aqui TEMOS controle de dados
+				A diferença é que vai especificar qual registro não deve existir
+				Qual vai ser a entrada a ser digitada
+				O que vai aparecer na tela escrito, o que vai ter no banco de dados
+				
+				Nos procedimentos vai estar especificando tudo também
+				
+				Exercício - Exemplo de ficha de teste
+					Vamos fazer uma ficha de teste para validar o impedimento de inclusão de um cliente que já existe!
+					
+					Identificação: TesteUC-0102
+					Descrição de Objetivo: Avaliar o funcionamento do impedimento do Cadastro de um Cliente em dobro (Cenário secundário 1 do Caso de Uso)
+					Programa avaliado: CADCLI.EXE (opcional)
+					Preparação: Garantir que na TABCLIENTE exista registro com atributo CPF = 122.222.333-44
+					Massa de dados de entrada: CPF = 122.222.333-44, Nome = João da Silva Querequeque
+					Massa de dados de saída esperada: Mensagem "Não é possível o cadastro duplicado" é exibida e o cliente informado deve constar na Tabela de Clientes do banco de dados (verificar via SQL)
+					Procedimento de teste:
+						1) Digitar CPF 122.222.333-44
+						2) O usuário digita o Nome do cliente = João da Silva querequeque
+						3) O usuário seleciona "Salvar Cliente"
+						4) Executar SQL para consultar registro já existente
+					Resultado esperado:
+						1) Campo de CPF é exibido na tela com os dados informados
+						2) Campo de Nome é exibido na tela com os dados informados
+						3) Tela exibe a mensagem "Não é possível cadastro duplicado"
+						4) Registro encontrado na tabela do Banco de dados
+				
+				Use Case
+					Percorrer cenário principal, isso é 1 teste
+					Percorrer cenário principal até dar uma exceção, isso vai ser outro
+					Um novo cenário para cada cenário secundário
+		
+		Mesmo tendo um robo de teste, isso é importante
+		Porque para o robo testar, precisa estar funcionando, precisa dar para mostrar como funciona
+		Para o robo treinar, ele precisa estar estável
+
+TestLink - Ferramenta de testes
+	Criação de testes para use cases
+	
+	Na Azure (não conseguimos porque tem bloq de firewall), dá para associar até com a use case direto, com as features etc.
+	
+	Nessa ferramenta, criamos uma pastinha por épico
+	Use case por feature
+	
+	Tem vídeo no canal do professor para isso
+	
+	Basicamente criamos as use cases
+	Criamos depois os testes, informando procedimentos, descrições, etapas e tudo
+	Criamos um plano de teste, e rodamos o teste clicando no botão
+	
+	Nisso depois o app consegue gerar estatística dos testes
