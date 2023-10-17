@@ -19,6 +19,8 @@ Automação de testes
 				Trocar tipo de coluna para Data Column
 				Selecionar coluna
 				Testar test suit
+				
+				Dá para associar massa de testes direto no teste case mesmo
 		
 		Selenion
 	
