@@ -1,0 +1,36 @@
+Automação de testes
+	Hoje em dia tem várias ferramentas para ajudar nisso, desde 2015 cresceu muito, antes tinham pessoas que eram contratadas para isso
+	
+	Lembrando que primeiro fazemos o teste manual, para saber se funciona
+	
+	Funcional
+	
+		Consegue gravar oq vc faz e reproduz
+	
+		Katalon
+			
+			Grava o que vc faz em uma URL, depois reproduz o teste
+			Record/Playback
+			Teste de portabilidade -> em navegadores diferentes
+			Data Driven Test -> cria uma massa de dados e faz o robo usar para trabalhar
+				Criar Data File associando a um excel simples
+				Criar test suit
+				Associar data binding
+				Trocar tipo de coluna para Data Column
+				Selecionar coluna
+				Testar test suit
+		
+		Selenion
+	
+	Smoke Test -> Teste mais simples que existe em automação
+		Soltar fumaça nos canos para ver se chega no final
+		
+		Teste só para ver se a aplicação está respondendo
+		
+		Xenu, ZapTest
+	
+			ZapTest
+				Logar, NoCode, fechar janelas
+				
+				Scan URL que pega a árvore inteira do HTML
+			
