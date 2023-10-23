@@ -1,0 +1,232 @@
+Testes
+	Como evitar gastar mais tempo neles do que no desenvolvimento?
+	Como ser eficiente e trazer qualidade no desenvolvimento?
+	
+	Qualidade -> foi bem testado, sem defeitos
+		Dois princípios para alcançar A Qualidade e a Governança sobre planos, ações e resultados:
+			Processo adequado para planejar, administrar e realizar um projeto e produto
+			+
+			Avaliação de resultados alcançados e da satisfação de quem recebe o produto final
+		
+		Vamos ver como avaliar os resultados durante e após o projeto do produto -> Testes
+		
+	Gerenciamento da liberação do software
+		Indústria segue um roteiro na hora de liberar um produto ou nova versão
+			Versão alpha -> Beta -> Release candidate -> release to manufacturing -> general availability
+			
+			alpha -> testes dentro da fábrica de software
+			beta -> adiciona testes de utilização pelo cliente. sai um pouco dos limites da organiazação de desenvolvimento.
+				Beta testers -> consumidores selecionados que aceitam participar dos testes
+			release candidate -> versão com potencial para ser o produto final, pronto para lançamento a menos que surja um grande impacto
+				aguarda confirmação de data
+			release to manufacturing -> versão empacotada para o mercado, com componentes de software definitivos
+				versão que será reproduzida e distribuída em massa com comercialização
+			general availability -> produto vivo, fase de manutenção ou sustentação
+				ajustes com manutenções corretivas, adaptativas, evolutivas, perfectiva
+				
+			Para cada fase, temos diferentes ambientes de infraestrutura também
+				Infra de desenv
+				Infra de testes (beta, release etc.)
+				Infra de uso diário (general availability)
+			
+				Em certas situações é preciso movimentar massas de dados para testes e avaliações
+				Nisso temos:
+					transportes -> novas versão de um ambiente para outro
+					replicações -> dados de um ambiente produtivo para testes e desenvolvimento
+		
+		Falhas no lançamento de um software por falta de testes pode trazer enormes comprometimentos a empresas
+		Por isso muitas empresas investem mais em testes do que no desenvolvimento próximo ao lançamento do produto
+		
+	Como ter eficiência, eficácia e efetividade em avaliações de software? Estratégia!
+	
+		Estratégia envolve técnicas para testar em diferentes níveis
+		Temos diferentes níveis de detalhe: Funcional, Não Funcional, Situação de Criação, Situação de Manutenção/Mudança
+		
+		Teste:
+			Busca por falhas
+			Falhas causadas por defeitos e erros (geralmente causadas por ações humanas)
+			
+			Erro -> ação de um ser humano de cometer um engano
+			Defeito -> componente que não funciona corretamente
+			Falha -> desvio do comportamento esperado
+			
+			PROCEDIMENTOS DE TESTE
+				São necessários procedimentos para cumprir os testes, sem eles não sabemos o que fazer, o que significa acerto ou erro
+			
+			ORGANIZAÇÃO DO TESTE
+				Quem vai testar?
+				
+				O desenvolvedor:
+					Temos os testes unitários que são feitos pelos devs para validar um componente de software
+			
+		Para ter algo bem testado, não basta o teste do dev, precisamos de outros com diferentes objetivos, planejados e executados por
+			outras pessoas
+			É preciso aplicar diversos tipos de testes, com diferentes técnicas, para atender determinados níveis de testes
+				que correspondem às diversas expectativas de pessoas sobre a quialdiade de um software
+		
+		Níveis de teste
+			* O usuário quer experimentar, operar livremente
+			* Arquitetos de solução querem confirmar se os componentes estão se comunicando adequadamente, se estão sendo oferecidos e consumidos
+				da forma correta
+			* Os programadores querem garantir que a construção funciona
+		
+			Modelo V:
+				Levantamento de requisitos -> Subsidia informações para planejar -> Teste de aceitação / homologação pelo usuário
+				Modelagem funcional (casos de uso) -> Teste de sistema completo
+				Arquitetura técnica de sistema -> Teste de integração entre componentes
+				Construção de código -> Teste unitário de código
+							Código pronto
+			
+			Teste de aceitação -> feita pelo usuário final acompanhado pelo PO
+			Teste de sistema completo -> realizado por uma equipe de testes (com auxílio do PO)
+			Teste de integração -> Pelo dev
+			Teste unitário -> pelo dev
+			
+			Obs: As etapas de levantamento, modelagem etc. também trazem verificações e validações a serem feitas
+				Podemos verificar o cumprimento dos processos de trabalho definidos, validar conteúdo dos materiais produzidos, diagramas, estruturas
+					documentação interna do código
+				
+				Verificar documentos de abertura de projetos
+				Se código foi escrito reutilizando componente já construído definido pela arquitetura
+				Verificar se todos métodos de uma classe foram detalhados em algoritmos
+				Se algoritmo contém lógica funcional correta
+				Se diagrama de casos de uso representam semanticamente todo o escopo da lista funcional representada no backlog de produto
+			
+				Depois com as etapas de testes
+				
+				Verificar se a lista de testes planejadas foram aplicadas
+				Se o status dos testes está sendo apontado junto com os dados de data, hora, responsável pela aplicação
+				Se as chamadas estão corretas
+				Se o resultado foi feito corretamente
+				Se o desempenho está correto
+				Se o usuário consegue usar sem pedir ajuda
+			
+		Tipos de teste:
+			Definem a ênfase do teste, propósito
+			
+			FUNCIONAL -> avaliar o funcionamento do software, olhando o que deve fazer, o que deve gerar, fazer
+				Se carro anda para frente
+				Se faz curva
+				Se dá para tabular dados
+				Se dá para somar
+				calcular percentual
+				Traçar gráficos
+			NÃO FUNCIONAL -> avaliar os atributos da qualidade do software não relacionadas com o funcionamento: estética, facilidade de uso
+				velocidade de responsta
+				
+				Se tem espaço no cockpit
+				Se dá para enxergar os instrumentos
+				Beleza dos gráficos
+				Facilidade para digitar fórmulas
+			ESTRUTURAL -> avaliar desenhos técnicos, projetos de engenharia, arquitetura do software
+				Se as peças estão acopladas
+				Se tem folgas dentro dos limites de tolerância permitidas
+				Conectividade elétrica e eletrônica
+				Conectividade OLE com poewrpoint e MS Word
+				Protocolo de integraçaõ com banco de dados MS-SQL
+			MUDANÇAS -> se vc alterou 1205 programas fontes, o que testar?
+				Só a sua aplicação?
+				Todo o sistema?
+				
+				São especiais, porque:
+					1) Não precisa testar tudo de novo, porque mudamos um componente
+						Precisamos testar os componentes relacionados, observando as matrizes de integridade referencial
+					2) Podemos reaproveitar testes já elaborados anteriormnete para reavaliar programas que não deveriam ser modificados
+						ou sofrer impactos, focando esforços nos novos casos de teste
+				
+				2 subtipos:
+					* Teste de confirmação (Re-Teste) -> avalia se o componente modificado está eficaz, eficiente e efetivo
+					* Teste de regressão -> avalia se os componentes não modificados mas que operam em conjunto com o que foi alterado
+						verifica se continua com eficácia, eficiência e efetividade
+						Testes repetitivas que verificam se continam funcionamento corretamente a cada nova versão
+						
+		Técnicas de teste
+			Direcionam como fazer para realizar os testes, modus operandi
+			
+			* Caixa Preta -> usamos o item avaliado sem entra no mérito da sua construção interna
+				mandamos um inpit e queremos um output, sem se importar com o funcionamento interno
+				
+				NÃO PRECISAMOS CONHECER A ESTRUTURA INTERNA, BASTA SABER A ENTRADA E SAÍDA
+			* Caixa Branca -> abrimos o item avaliado e exploramos os detalhes internos, acompanhando passo a passoa da execução ou uso do item
+				estamos interessados em conhecer a lógica ou conteúdo interno
+		
+				PRECISAMOS CONHECER A ESTRUTURA INTERNA DA APLICAÇÃO PARA ELABORAR TESTES QUE AVALIEM CADA TRECHO DO CÓDIGO
+	
+		Automação de testes
+			Esses testes podem ser automatizados, usando engines que executam o software sem intervenção humana
+			O que facilita reaplicação perfeita de casos de testes já elaborados
+			Interessante para testes que precisam ser reaplicados diversas vezes
+			Agiliza o processo de execução e conferência do sucesso dos testes, reduz consumo de tempo do time
+			
+		No SCRUM
+			PO -> testes de aceitação
+			Time de desenv -> testes de integração
+			Desenvolvedor -> testes unitários
+		
+		Estratégia de teste
+			Elaboração de um conjunto de documentos que explicam testes a serem feitos para atender os níveis de avaliações, estabelescendo
+				metas de prazos e responsabilidades
+			
+			* Caso de teste: Passo a passo do que deve ser simulado, entradas, saídas, tipo, técnica
+			* Roteiros de teste: sequência em que casos de teste devem ser aplicados, buscando otimização do processo
+				Formam pacotes de testes a serem aplicados, cada um com um responsável definidos, cobrindo um nível de teste
+			* Planos de teste: Cronograma de aplicação dos rotesiros de testes, associando responsáveis por cada roteiro
+		
+			Casos de teste
+				Precisa cubrir dois objetivos:
+					* Teste POSITIVO -> se o software funciona, se forem seguidos os passos coretos
+					* Teste NEGATIVO -> o quanto o software tolera e trata tentativas indevidas que deveriam ocasionar falhas
+				Objetivo: esclarecer quais os testes importantes a serem aplicados
+					O que, como, quantos, como registrar para permitir auditoria de qualidade
+				
+				Métodos mais populares para planejar:
+					* Teste exploratório -> nível de homologação
+					* Teste com base em Caso de Uso -> nível de sistema
+					* Controle de fluxos de chamadas de funções externas -> nível de integração
+					* Avaliação de Complexidade Ciclomática -> nível de teste unitário
+					* Teste de Enlace -> nível de teste unitário
+					* Avaliação de Limites -> nível de teste unitário
+					* Avaliação de Condição de Equivalência -> nível de teste unitário
+	
+
+
+TESTES de ACEITAÇÃO
+	Não dá para deixar o usuário à vontade completamente, porque o resultado fica imprevisível
+	
+	Então a ideia é seguir um roteiro com base nos requisitos
+	
+	Como planejar?
+		Testes exploratórios
+			Devem permitir liberdade para o usuário validar o software, mas não pode deixar que solicitem recursos funcionais ou não
+				funcionais que não foram solicitados no projeto
+			É preciso manter o foco na validação dos requisitos funcionais e não funcionais que foram documentados
+			
+			O usuário deve ter uma liberdade, porém limitada de validação, limitada pelo próprio pedido formal de escopo
+			
+			* ACEITAÇÃO
+			* FUNCIONAL
+			* CAIXA PRETA
+			Propósito de permitir exploiração do uso do sistema de forma livre considerando o escopo definido, obsservando critérios de aceite
+			
+			Exemplos:
+				Identificação
+				Descrição
+				Objeto avaliado
+				Preparação
+				Massa de dados de entrada
+				massa de dados de saída esperada
+				Procedimento de teste
+				Resultado esperado
+				
+				Em projetos ágeis, o PO que documenta
+				Em projetos clássicos, usuários-chave documentarão, funcionando como líderes
+				
+				Eles podem ser feitos com critérios dirigidos ou não
+				Quando for dirigido, o dado que será digitado fica a critério do documentador
+				Quando não for, fica nas mãos do executor do teste
+				Geralmente por ser um teste exploratório, o usuário que decide os inputs
+				
+				Lembrando que devem ser criados testes POSTIIVOS e NEGATIVOS, indicando caso de sucesso e de falha, em caso de uso incorreto
+				A parte de resultado esperado deve indicar se é esperado que passe ou falhe
+				
+				
