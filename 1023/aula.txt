@@ -1,0 +1,30 @@
+Testes de sistema não funcionais
+	Portabilidade -> Verificar se funciona em outro navegador
+	Performance -> Testar se alcançou o desempenho desejado
+	Estresse
+	
+	Aula no Material número 17
+	
+	Ferramentas:
+		JMeter
+		BlazeMeter
+		
+		Cuidado: Esses testes podem derrubar sites
+	
+		JMeter -> Testes de performance
+			Verificar quantidade de usuários simultâneos
+			Tempo de resposta etc.
+	
+			Criamos planos de teste
+			Criamos grupos de threads
+			Criamos samplers Http
+			Criamos listeners de resultados
+			
+		BlazeMeter
+			https://www.blazemeter.com/
+			
+			Site em que podemos fazer upload do arquivo do JMeter para rodar os testes em diferentes localidades
+				diferentes quantidades de usuários
+				Diversos relatórios gerados etc.
+				
+		
