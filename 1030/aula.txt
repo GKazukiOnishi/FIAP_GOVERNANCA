@@ -1,0 +1,72 @@
+Aula 19 e 20 -> Teste de Integração -> Não vimos
+	São chamadas de função
+	Teste mockado para ver se funciona primeiro
+	Depois tiramos mock e testamos
+	
+	Ex: Mockito -> Criamos classes e métodos mockadas
+		Nisso, quando chamamos no nosso programa, ele vai pegar do mock
+		Isso facilita para não ficar alterando nosso código para testar com mock
+		
+	BDD -> Forma de desenvolvimento
+	
+
+Teste Unitário
+
+	TDD -> Test Driven Development
+		Forma de desenvolver software que está sendo empregado nas principais indústrias de software
+		
+	Pair Programming -> 2 caras fazendo o mesmo código juntos
+	
+	TDD
+		Primeiro fazemos os testes, depois o código
+		Desenvolvimento orientado a testes
+		
+		Eclipse + JUnit
+	
+		Teste é parte da programação
+		
+		Nasce antes do programa
+		
+		A ideia é que no final, quando terminar de codar, não vai ser necessário testar mais nada
+		
+		Exemplo:
+			Classe Criptografadora, com método criptografa que recebe uma letra char, e retorna o valor criptografado em int
+			
+			Criar projeto java, usar JUnit 4
+			-> Não criamos a classe ainda, vamos criar a JUNIT Test Case
+
+public class TestadoraCriptografia {
+
+	//Teste de conversão do A em 19
+	@Test
+	public void testeConversaoA() {
+		Criptografadora cripta = new Criptografadora();
+		int valorRetorno = cripta.criptografar('A');
+		assertEquals(valorRetorno, 19);
+	}
+
+}
+
+			Primeiro garantimos que ainda não existia, então deve dar erro
+			Depois criamos a classe de forma bem simples, KISS, Keep It Simple Stupid
+
+public class Criptografadora {
+
+	public int criptografar(char letra) {
+		return 19;
+	}
+	
+}
+
+			Não saímos fazendo tudo junto, só para testar o primeiro caso por enquanto
+			
+			Depois implementamos a lógica para esse teste e testamos
+			
+			Criamos segundo teste, rodamos, garantimos que deu erro
+			
+			Implementamos segunda lógica, testamos para ver se deu certo
+			
+			...
+			
+			
+		
