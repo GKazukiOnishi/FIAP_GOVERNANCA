@@ -68,5 +68,15 @@ public class Criptografadora {
 			
 			...
 			
+		Pode parecer que você está gastando muito mais tempo, mas na verdade é bem pouca a diferença
+		
+		O que fizemos é:
+			Teste de Condição de Equivalência
+			Baseado na Teoria de Conjuntos
+			
+				A partir de um conjunto de interesse, testamos equivalência para cada valor
+				
+				Então fora os testes esperados, temos um teste para verificar a exceção
+		
 			
 		
