@@ -10,6 +10,7 @@ Aula 19 e 20 -> Teste de Integração -> Não vimos
 	BDD -> Forma de desenvolvimento
 	
 
+Aula 21
 Teste Unitário
 
 	TDD -> Test Driven Development
@@ -72,11 +73,46 @@ public class Criptografadora {
 		
 		O que fizemos é:
 			Teste de Condição de Equivalência
-			Baseado na Teoria de Conjuntos
+				Baseado na Teoria de Conjuntos
 			
 				A partir de um conjunto de interesse, testamos equivalência para cada valor
 				
 				Então fora os testes esperados, temos um teste para verificar a exceção
 		
-			
+Aula 22
+Apresenta como podemos criar testes unitários
+	Precisamos sempre pensar em isolar programas
+	Mockamos códigos externos para não influenciar
+	
+	Métodos de definição de casos de teste
+	
+	- Iniciação de variáveis
+		Uma das maiores causas de falhas intermitentes em software é a falta de inicialização de variáveis
+			variáveis que ficam com lixo de execuções anteriores etc
 		
+		* Listamos as variáveis
+		* Checamos o primeiro local em que é usado para decisão ou cálculo
+		* Verificamos se foi inicializado
+	- Caminhos mínimos
+		Cobre o máximo possível do programa com o mínimo de esforço
+		
+		Então é um teste mínimo
+		
+		Também chamado de complexidade ciclomática, ou de McCabe
+		
+		Usa teoria dos grafos
+			Analisa o programa em grafo de caminhos
+		
+		Cada nó de decisão abre um novo caminho
+		
+		Então ele tenta garantir que passou por cada linha do código
+		Garante que passou 1 vez em cada linha do código
+		
+		Podemos desenhas o caminho do código por linha
+		Ou
+		Regra de McCabe 
+			NroTestes = NroDecisões + 1
+			
+		Para testar, criamos várias combinações de inputs, de forma que a execução passe pelos caminhos desejados, definimos o output esperado
+		Podemos ir fazendo testes de mesa para descobrir
+	- 
