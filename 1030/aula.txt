@@ -115,4 +115,57 @@ Apresenta como podemos criar testes unitários
 			
 		Para testar, criamos várias combinações de inputs, de forma que a execução passe pelos caminhos desejados, definimos o output esperado
 		Podemos ir fazendo testes de mesa para descobrir
-	- 
+	- Teste de Enlace
+		Aplicáveis em testes Funcionais de nível Unitário
+		Requer conhecimento da lógica interna, ou seja, caixa branca
+		
+		A ideia é avaliar trechos de código em loop
+		Complementam o Teste de Complexidade Ciclomática
+		
+		Avalia três condições mínimas de um mesmo ponto de decisão:
+			* Não entrar no loop
+			* Ficar no loop ao menos uma vez
+			* Realizar ao menos um retorno no ciclo, com reexecução do mesmo trecho de código
+		
+		Para planejar, começamos sempre pelo loop mais interno e vamos indo para fora
+		
+		Quando o loop executa uma condição antes da sentença, teremos 3 testes mínimos, caso contrário 2. Ex: While e For. Do While são 2 testes
+		
+		É só somar 3 para cada loop com condição inicial, 2 para cada um com condição no final
+		
+		Definimos para cada teste:
+			Identificador
+			Objetivo
+			Preparação
+			Entrada
+			Saída
+		Obs: O teste vem antes do código
+	- Teste de Limites
+		Assim como o anterior, aplicável em funcionais de nível unitário, caixa branca
+		Tenta avaliar valores que influenciam decisões, sendo semelhante aos testes mínimos de Mc Cabe, porém explora melhor
+		as decisões.
+		Incrementa testes mínimos e de enlace, já que executa eles mais de uma vez
+		
+		Ex: O teste de caminho mínimo verificaria um 10 < x < 100 duas vezes, uma vez entrando na condição, outra saindo
+			O teste de limite verificaria 4 vezes, estando fora pelo limite inferior, superior, e dentro pelos limites superior e inferior
+		
+		A ideia é focar as entradas próximas dos limites:
+		1. Fora do limite inferior
+		2. Dentro do limite inferior
+		3. Fora do limite superior
+		4. Dentro do limite superior
+		
+		Por que testar duas vezes quando está dentro do limite? Porque um <= ou < faz diferença, se fizerem duas condições separadas também
+	- Teste de Partição / Condição de Equivalência
+		Assim como o anterior, aplicável em funcionais de nível unitário, caixa branca
+		
+		Avalia grupos de valores que implicam nas decisões, parecido com limites, mas pode trabalhar com valores não numéricos
+		
+		Incrementa os testes mínimos, enlace e de limites, já que executa eles mais de uma vez
+		
+		Para isso observamos os conjuntos de dados que levam aos mesmos resultados, válidos e inválidos
+		Nele criamos um teste para cada valor do conjunto válido, e um único para o conjunto inválido
+		
+		
+		
+		
